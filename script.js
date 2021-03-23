@@ -8,3 +8,9 @@ let messages = ['Have a nice day!', 'Have you eaten healthy breakfast today?',
 "Let's start your day with a smile!", 'Well, well...', "You're lucky!"];
 //array that cointans 5 random messages
 
+const generate = () =>  {
+    console.log(messages[randomNum()]);
+};
+//generates random message from an array
+
+generate ();
