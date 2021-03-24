@@ -1,16 +1,11 @@
 //this is a random message generator
 
-const randomNum = () => {
-    return Math.floor(Math.random()*5)};
-//returns random number from 0 to 4
+const randomNum = x => {
+    return Math.floor(Math.random()*x)};
+//returns random number from 0 to x
 
-let messages = ['Have a nice day!', 'Have you eaten healthy breakfast today?', 
-"Let's start your day with a smile!", 'Well, well...', "You're lucky!"];
-//array that cointans 5 random messages
-
-const generate = () =>  {
-    console.log(messages[randomNum()]);
-};
-//generates random message from an array
+let firstM = ['I wish you have a', 'Have a', 'Hope you have a'];
+let secondM = ['nice', 'good', 'amazing'];
+let thirdM = ['day', 'week', 'evening tonight'];
 
 generate ();
