@@ -9,6 +9,9 @@ let secondM = ['nice', 'good', 'amazing'];
 let thirdM = ['day', 'week', 'evening tonight'];
 //three arrays containing parts of the final sentence
 
+
+
+
 const generate = () => {
 let first = firstM[randomNum()];
 let second = secondM[randomNum()];
@@ -16,8 +19,11 @@ let third = thirdM[randomNum()];
 
 if (second[0] !== 'a'){
     console.log (first + ' ' + second + ' ' + third + '.');
+    console.log(randomArt1)
+
 } 
 else { console.log (first + 'n ' + second + ' ' + third + '.'); }
+
 }
 //generates final random sentence
 
