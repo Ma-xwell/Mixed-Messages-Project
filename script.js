@@ -19,7 +19,7 @@ let third = thirdM[randomNum()];
 
 if (second[0] !== 'a'){
     console.log (first + ' ' + second + ' ' + third + '.');
-    console.log(randomArt1)
+
 
 } 
 else { console.log (first + 'n ' + second + ' ' + third + '.'); }
